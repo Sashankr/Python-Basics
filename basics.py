@@ -48,3 +48,7 @@ print(f"Current Balance is {current_balance}")
 firstName = 'Sashank '
 lastName = 'R'
 print(firstName + lastName)
+
+# Check the type of a variable using the type function
+
+print(type(firstName).__name__)
