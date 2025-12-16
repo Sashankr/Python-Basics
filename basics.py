@@ -18,4 +18,10 @@ print('Armored Health',armored_health)
     Float   : A number with a decimal.
 """
 
+# f-string, it can be used to interpolate variables into a string. Let's see with an example below.
 
+name = 'Sashank'
+age = 99
+race = 'Indian'
+
+print(f"{name} is a {race} who is {age} years old")
