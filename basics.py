@@ -25,3 +25,8 @@ age = 99
 race = 'Indian'
 
 print(f"{name} is a {race} who is {age} years old")
+
+# None, it is a special value in Python that represents absence of a value.
+
+current_balance = None
+print(f"Current Balance is {current_balance}")
