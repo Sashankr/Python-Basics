@@ -9,3 +9,13 @@ print(player_health)
 armor_multiplier = 2
 armored_health = player_health * armor_multiplier
 print('Armored Health',armored_health)
+
+# Basic Data types
+"""
+    Strings : A sequence of characters.
+    Boolean : True or False.
+    Integer : A number without a decimal.
+    Float   : A number with a decimal.
+"""
+
+
