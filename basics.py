@@ -42,3 +42,9 @@ print(f"Current Balance is {current_balance}")
     But in a statically typed language like Go or Typescript, this won't be allowed.
 
 """
+
+# When we add strings with a plus operator, a concatenation is performed.
+
+firstName = 'Sashank '
+lastName = 'R'
+print(firstName + lastName)
