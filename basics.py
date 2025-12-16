@@ -30,3 +30,15 @@ print(f"{name} is a {race} who is {age} years old")
 
 current_balance = None
 print(f"Current Balance is {current_balance}")
+
+""" 
+    Python is dynamically typed language, meaning we can change the type of value that was initially stored in a variable
+    and then later assign a different type of value
+
+    Ex:
+    speed = 50
+    speed = "50"; ---> This is allowed in Python.
+    
+    But in a statically typed language like Go or Typescript, this won't be allowed.
+
+"""
