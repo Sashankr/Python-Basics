@@ -8,3 +8,5 @@ def area_of_circle(r):
 
 output = area_of_circle(10);
 print(f"Area of circle is {output}")
+
+# We cannot call functions without it being defined first.
