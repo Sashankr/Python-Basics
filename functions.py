@@ -18,3 +18,12 @@ def sum():
 
 sum_res = sum();
 print(sum_res)
+
+def message(name,age):
+    greeting = f'Hello {name}'
+    new_age = age + 1
+    return greeting, new_age
+
+greeting, age_next_year = message('Sashank',99)
+print(greeting, age_next_year)
+
