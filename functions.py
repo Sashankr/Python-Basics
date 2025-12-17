@@ -27,3 +27,12 @@ def message(name,age):
 greeting, age_next_year = message('Sashank',99)
 print(greeting, age_next_year)
 
+# Default value in functions
+
+def add(a,b=10):
+    return a + b;
+
+res = add(5);
+print(res)
+
+
